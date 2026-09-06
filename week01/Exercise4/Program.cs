@@ -28,6 +28,14 @@ class Program
         }
         Console.WriteLine($"The sum is: {sum}");
         double average = (double)sum / numbers.Count;
-        Console.Write($"The average is: {average}"); 
+        Console.WriteLine($"The average is: {average}"); 
+
+        int max = numbers[0];
+        foreach (int num in numbers)
+            if (num > 0)
+            {
+                max = num;
+            }
+        Console.WriteLine($"The max is: {max}");
     }
 }
