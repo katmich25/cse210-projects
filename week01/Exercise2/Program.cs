@@ -28,7 +28,7 @@ class Program
         }
         else
         {
-            letter = "E";
+            letter = "F";
         }
 
         Console.WriteLine($"Your grade is: {letter}");
