@@ -7,6 +7,7 @@ public class Resume
     public void DisplayResume()
     {
         Console.Write($"Name: {_name}\nJobs:\n");
+        //Usamos data type "Job" en este loop
         foreach (Job job in _jobs)
         {
             job.DisplayJobDetails();
