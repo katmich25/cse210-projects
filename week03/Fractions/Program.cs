@@ -1,9 +1,36 @@
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Fractions Project.");
+        Fraction test = new Fraction();
+        Console.WriteLine(test.GetFractionString());
+        Console.WriteLine(test.GetDecimalValue());
+
+        Fraction test2 = new Fraction(5);
+        Console.WriteLine(test2.GetFractionString());
+        Console.WriteLine(test2.GetDecimalValue());
+
+        Fraction test3 = new Fraction(3,4);
+        Console.WriteLine(test3.GetFractionString());
+        Console.WriteLine(test3.GetDecimalValue());
+
+        Fraction test4 = new Fraction(1,3);
+        Console.WriteLine(test4.GetFractionString());
+        Console.WriteLine(test4.GetDecimalValue());
+
+        //Checking the getter and setter methods
+        //test3.SetTop(8);
+        //Console.WriteLine(test3.GetTop());
+
+        //test3.SetBottom(10);
+        //Console.WriteLine(test3.GetBottom());
+        
+        
+
+
+
     }
 }
