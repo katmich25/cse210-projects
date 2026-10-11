@@ -1,0 +1,3 @@
+1830
+EternalGoal,prayer,pray every day,50
+ChecklistGoal,ir al templo,ir al templo regularmente,70,4,4,500
